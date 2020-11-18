@@ -158,7 +158,7 @@ Nerv.render(<Hello />, document.getElementById('app'))
 #### css less 处理
 
 ```bash
-npm install -D css-loader less-loader style-loader postcss-loader cssnano  autoprefixer url-loader
+npm install -D css-loader less less-loader style-loader postcss-loader cssnano  autoprefixer url-loader
 ```
 
 ```js

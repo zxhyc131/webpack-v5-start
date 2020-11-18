@@ -93,7 +93,8 @@ module.exports = {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
         port: 9001,
-        hot: true
+        hot: true,
+        open: true
     },
     plugins: [
         new WebpackBar(),
