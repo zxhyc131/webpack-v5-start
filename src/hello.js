@@ -10,7 +10,7 @@ class Hello extends Nerv.Component {
     }
 
     render() {
-        return <div>Hello, {this.state.message}</div>
+        return <div className='red'>Hello, {this.state.message}</div>
     }
 }
 
