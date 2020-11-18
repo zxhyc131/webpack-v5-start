@@ -12,6 +12,13 @@ module.exports = {
             { test: /\.js$/, use: 'babel-loader', exclude: '/node_modules/' }
         ]
     },
+    // 此选项控制是否生成，以及如何生成 source map
+    devtool: 'cheap-module-source-map',
+    devServer: {
+        compress: true,
+        port: 9001,
+        hot: true
+    },
     plugins: [
         new HtmlWebpackPlugin({
             filename: 'index.html',
