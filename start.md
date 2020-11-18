@@ -3,7 +3,7 @@
 ## 1 创建一个目录，使用 npm 快速初始化
 
 ```bash
-mkdir myApp && cd ./myApp && npm init -y
+mkdir my-app && cd ./my-app && npm init -y
 ```
 
 ## 2 安装依赖
