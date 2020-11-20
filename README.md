@@ -252,3 +252,8 @@ last 2 version
 not ie <= 10
 not dead
 ```
+
+### TODO
+
+- [ ] typescript
+- [ ] eslint
